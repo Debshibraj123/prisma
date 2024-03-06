@@ -15,8 +15,8 @@ function main() {
     return __awaiter(this, void 0, void 0, function* () {
         yield prisma.user.create({
             data: {
-                email: "harkirat1@gmail.com",
-                name: "harkriat"
+                email: "harkirat12@gmail.com",
+                name: "harkriat_new"
             }
         });
     });
